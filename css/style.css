@@ -1,0 +1,84 @@
+body {
+				background-color: white;
+       color: black;
+}
+       @font-face {
+       font-family: Futufont;
+       src:url('AquireLight-YzE0o.otf.ttf');
+}
+       h1 {
+				font-family: FutuFont;
+				color: black;
+}
+       h2 {
+				font-family: FutuFont;
+				color: black;
+}				
+       h3 {
+				font-family: FutuFont;
+				color: black;
+}				
+h4 {
+				font-family: FutuFont;
+				color: black;
+}				
+       h5 {
+				font-family: FutuFont;
+				color: black;
+}			
+       h6 {
+				font-family: FutuFont;
+				color: black;
+}					
+a{
+				text-decoration: none;
+				font-family: FutuFont;				
+				color: black;
+				font-size: 18.8px;
+}
+p {
+       font-size: 27px;	
+       font-family: FutuFont;
+}
+button {
+       background-color: greenyellow;
+       padding: 8.5px;
+       border: 2px solid black;
+       font-family: FutuFont;
+}
+       .logo-animate {
+        position: relative;
+        font-size: 40px;
+				font-family: FutuFont;
+				animation-delay: 0.3s;
+				animation-duration: 15.9s;
+				animation-iteration-count: 9998;
+				animation-name: logo;
+}
+#home {
+				background-image: url('bg.png');
+}
+#Download {
+				background-image: url('bg.png');
+}
+#Set-Up {
+				background-image: url('bg.png');
+}
+#News {
+				background-image: url('bg.png');
+}
+footer {
+   background-color: cyan;
+}
+@keyframes logo {
+10% {color: yellow;}
+20% {color: red;}
+30% {color: yellow;}
+40% {color: red;}
+50% {color: yellow;}
+60% {color: red;}
+70% {color: yellow;}
+80% {color: red;}
+90% {color: yellow;}
+100% {color: red;}
+}
